@@ -3,9 +3,13 @@
   padding-bottom: 180px
   justify-content: space-between
   background: #faf8fb
+  & .container
+    @extend %equal-width-childs-container
+
   &__text
-    margin-left: 390px
+    @extend %equal-width-childs-child
     margin-top: 100px
+
     &-name
       font-family: 'Muller', sans-serif
       font-weight: 700
@@ -27,12 +31,15 @@
       color: #5e606a
       width: 490px
       margin-bottom: 30px
+
     &-item
       margin-bottom: 5px
+
       &::before
         content: "•"
         display: inline
         margin-right: 2px
+
     &-orders
       margin-top: 80px
       display: flex
@@ -43,6 +50,7 @@
       width: 473px
 
       box-shadow: 0 23px 32px 0 rgba(81, 8, 86, 0.33)
+
     &-question
       font-family: 'Open Sans', sans-serif
       font-size: 13px
@@ -51,14 +59,16 @@
       margin-top: 35px
       margin-bottom: 3px
       margin-left: 20px
+
     &-consultation
       font-family: 'Open Sans', sans-serif
       font-size: 16px
       font-weight: 600
       color: #ffffff
       margin-bottom: 40px
-      margin-top: 0px
+      margin-top: 0
       margin-left: 20px
+
     &-button
       width: 171px
       height: 48px
@@ -74,12 +84,15 @@
       cursor: pointer
       margin-top: 30px
       margin-right: 20px
-  &__stretching
+
+  &__slider
+    @extend %equal-width-childs-child
     display: flex
     flex-direction: column
+
     &-img
-      margin-top:  205px
-      margin-right: 300px
+      margin-top: 205px
+
     &-p
       font-family: 'Open Sans', sans-serif
       font-size: 13px

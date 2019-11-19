@@ -2,46 +2,34 @@
   display: flex
   padding-bottom: 220px
   justify-content: space-between
+  & .container
+    @extend %equal-width-childs-container
   &__img
+    @extend %equal-width-childs-child
     width: 540px
     height: 480px
     margin-right: 80px
-    margin-left: 390px
     margin-top: 110px
 
-.about-us__text
-  margin-top: 110px
-  margin-right: 400px
-  &-name
-    font-family: 'Muller', sans-serif
-    font-weight: 700
-    font-size: 30px
-    color: #7f38bd
-  &-head
-    margin-top: 80px
-    font-family: 'Muller', sans-serif
-    font-weight: 500
-    font-size: 32px
-    color: #383d52
-    width: 360px
-    margin-bottom: 60px
-  &-par-p
-    font-family: 'Open Sans', sans-serif
-    font-size: 14px
-    margin-bottom: 30px
-    color: #5e606a
-    width: 490px
-  &-par-a
-    font-family: 'Open Sans', sans-serif
-    font-size: 14px
-    margin-bottom: 30px
-    color: #5e606a
-    width: 520px
-  &-par-r
-    font-family: 'Open Sans', sans-serif
-    font-size: 14px
-    margin-bottom: 30px
-    color: #5e606a
-
-
+  &__text
+    @extend %equal-width-childs-child
+    margin-top: 110px
+    &-name
+      font-family: 'Muller', sans-serif
+      font-weight: 700
+      font-size: 30px
+      color: #7f38bd
+    &-head
+      margin-top: 80px
+      font-family: 'Muller', sans-serif
+      font-weight: 500
+      font-size: 32px
+      color: #383d52
+      width: 360px
+      margin-bottom: 60px
+    &-paragraph
+      font-family: 'Open Sans', sans-serif
+      font-size: 14px
+      margin-bottom: 30px
+      color: #5e606a
 
