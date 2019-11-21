@@ -1,6 +1,6 @@
 .ban
   background: url("../img/plane.png") no-repeat, url("../img/paper.png") no-repeat , url("../img/line.png") no-repeat, #f9f7fa
-  background-position: 1625px 410px, 1000px -20px, 1183px 467px
+  background-position: calc(50% -410px) 1625px , calc(50% -20px ) 1000px , calc(50% -467px) 1183px 
   //background-clip: border-box
 
 .banner
@@ -38,47 +38,40 @@
       font-weight: 600
       margin-top: 0
       margin-bottom: 50px
-    &-request
-      &-name
-        background: #f9f7fa
-        border-top: 0
-        border-right: 0
-        border-left: 0
-        border-bottom: 1px solid #cccccc
-        margin-bottom: 150px
-        padding-right: 60px
-        padding-left: 15px
-        padding-bottom: 10px
-        font-family: 'Open Sans', sans-serif
-        font-size: 14px
-        font-style: italic
-      &-nomer
-        background: #f9f7fa
-        border-top: 0
-        border-right: 0
-        border-left: 0
-        border-bottom: 1px solid #cccccc
-        padding-right: 60px
-        padding-left: 15px
-        padding-bottom: 10px
-        font-family: 'Open Sans', sans-serif
-        font-size: 14px
-        font-style: italic
-        margin-left: 30px
-  &__button
-    width: 192px
-    height: 48px
-    background: #fb0275
-    padding: 0
-    font-family: 'Open Sans', sans-serif
-    font-weight: 700
-    font-size: 16px
-    color: #ffffff
-    border: 1px solid #fb0275
-    border-radius: 24px
-    text-transform: uppercase
-    cursor: pointer
-    margin-left: 60px
+  &-request
+    display: flex
+    
+    
+    &-name
+      background: #f9f7fa
+      border-top: 0
+      border-right: 0
+      border-left: 0
+      border-bottom: 1px solid #cccccc
+      padding-left: 15px
+      padding-bottom: 10px
+      font-family: 'Open Sans', sans-serif
+      font-size: 14px
+      font-style: italic
+      margin-bottom: 100px
+      margin-right: 40px
+      padding-right: 60px
+    
+    &-button
+      width: 192px
+      height: 48px
+      background: #fb0275
+      padding: 0
+      font-family: 'Open Sans', sans-serif
+      font-weight: 700
+      font-size: 16px
+      color: #ffffff
+      border: 1px solid #fb0275
+      border-radius: 24px
+      text-transform: uppercase
+      cursor: pointer
+      margin-top: -15px
+    
 
 
 
