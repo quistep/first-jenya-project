@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+  <title>Artactive</title>
 </head>
 
 <body>
@@ -101,8 +101,8 @@
         </ul>
         <div class="services__text-orders">
           <div class="services__text-order">
-            <p class="services__text-question">Есть вопросы?</p>
-            <p class="services__text-consultation">Закажите консультацию</p>
+            <p class="services__text-question">Есть вопросы?</p> <!-- <i> -->
+            <p class="services__text-consultation">Закажите консультацию</p> <!-- <b> -->
           </div>
           <button class="services__text-button">заказать</button>
         </div>
@@ -132,90 +132,98 @@
       <div class="banner">
         <div class="banner__text">
           <h2 class="banner__text-header">Оперативная полиграфия — от визитки до баннера</h2>
-          <p class="banner__text-par-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          <p class="banner__text-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. </p>
-          <p class="banner__text-par-c">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+          <p class="banner__text-paragraph">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
             deserunt mollit anim id est laborum.
             Sed ut perspiciatis unde omnis iste natus error.</p>
-          <p class="banner__text-par-a">Есть вопросы?</p>
-          <p class="banner__text-par-r">Оставьте заявку на консультацию</p>
+          <!-- <div> -->
+          <p class="banner__text-par-a">Есть вопросы?</p> <!-- <i> -->
+          <p class="banner__text-par-r">Оставьте заявку на консультацию</p> <!-- <b> -->
           <form class="banner-request" action="#">
             <input type="text" placeholder="Имя" class="banner-request-name">
             <input type="text" placeholder="Телефон" class="banner-request-name">
             <input type="submit" value="отправить" class="banner-request-button">
           </form>
+          <!-- </div> -->
         </div>
-          <div></div>
       </div>
     </div>
   </section>
 
   <section class="review">
-    <div class="container"> 
-   <b class="review__header">3.Отзыв</b>
-   <div class="rectangle">
-     <img src="src/img/man.png" alt="man" class="rectangle__img">
-     <div class="rectangle__text">
-       <p class="rectangle__text-description">Обратился в компанию АртАктив за визитками. Это мой первый опыт, поэтому немного нервничал, не знал, с чего начать.
-          Остался доволен, потому что мне всё объяснили, показали и сделали по высшему разряду. Советую!</p>
-       <p class="rectangle__text-name">Александров Максим, 24 года</p>
-       <a href="#" class="rectangle__text-link">vk.com/mr.sharp</a>
-     </div>
-   </div>
-    
- </div>
-</section>
-<section class="faq">
-  <div class="container">
-    <b class="faq__header">4. Частые вопросы (FAQ)</b>
-    <div class="faq__text">
-      <div class="faq__text-t">
-        <p class="faq__text-a">Что такое макет?</p>
-        <p class="faq__text-b">Макет — это будущее печатное изделие в электронном формате. Верстают (собирают) макет в специализированном программном обеспечении. </p>
-        <p class="faq__text-a">У меня есть готовый макет</p>
-        <p class="faq__text-b">Вы можете привезти его к нам в офис на любом удобном для вас носителе (диск, флешка). 
-          В присутствии вас мы обработаем ваш макет и отправим его в производство.</p>
-        <p class="faq__text-a">У меня нет макета</p>
-        <p class="faq__text-b">В нашем штате работают професиональные дизайнеры, которые с ваших слов или в вашем присутствии сверстают макет, 
-          который после утверждения также будет отправлен в печать.</p>
+    <div class="container">
+      <b class="review__header">3.Отзыв</b>
+      <div class="rectangle">
+        <img src="src/img/man.png" alt="man" class="rectangle__img">
+        <div class="rectangle__text">
+          <p class="rectangle__text-description">Обратился в компанию АртАктив за визитками. Это мой первый опыт,
+            поэтому немного нервничал, не знал, с чего начать.
+            Остался доволен, потому что мне всё объяснили, показали и сделали по высшему разряду. Советую!</p>
+          <p class="rectangle__text-name">Александров Максим, 24 года</p>  <!-- <b> -->
+          <a href="#" class="rectangle__text-link">vk.com/mr.sharp</a>
+        </div>
       </div>
-      <div class="faq__text-e">
+
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="container">
+      <b class="faq__header">4. Частые вопросы (FAQ)</b>
+      <div class="faq__text">
+        <div class="faq__text-t">
+          <p class="faq__text-a">Что такое макет?</p>
+          <p class="faq__text-b">Макет — это будущее печатное изделие в электронном формате. Верстают (собирают) макет в
+            специализированном программном обеспечении. </p>
+          <p class="faq__text-a">У меня есть готовый макет</p>
+          <p class="faq__text-b">Вы можете привезти его к нам в офис на любом удобном для вас носителе (диск, флешка).
+            В присутствии вас мы обработаем ваш макет и отправим его в производство.</p>
+          <p class="faq__text-a">У меня нет макета</p>
+          <p class="faq__text-b">В нашем штате работают професиональные дизайнеры, которые с ваших слов или в вашем
+            присутствии сверстают макет,
+            который после утверждения также будет отправлен в печать.</p>
+        </div>
+        <div class="faq__text-e">
           <p class="faq__text-a">Сколько времени занимает печать?</p>
-          <p class="faq__text-b">В том случае если изображение готово к печати, изготовление занимает около 3 часов. Также время изготовления зависит от нашей загруженности.</p>
+          <p class="faq__text-b">В том случае если изображение готово к печати, изготовление занимает около 3 часов.
+            Также время изготовления зависит от нашей загруженности.</p>
           <p class="faq__text-a">Я не могу приехать к вам в офис</p>
-          <p class="faq__text-b">Отправьте нам изображение по электронной почте, укажите свой телефон. Мы свяжемся с вами для уточнения деталей.
-             Готовое изделие мы доставим вам курьером.</p>
+          <p class="faq__text-b">Отправьте нам изображение по электронной почте, укажите свой телефон. Мы свяжемся с
+            вами для уточнения деталей.
+            Готовое изделие мы доставим вам курьером.</p>
           <p class="faq__text-a">Вызов курьера бесплатный?</p>
-          <p class="faq__text-b">В зависимости от соимости заказа, курьер может доставить вам продукцию бесплатно (при соимости от 600 руб.) или от 150 руб.
-             в пределах Ярославля и до 500 руб. в пределах Ярославской области.</p>
+          <p class="faq__text-b">В зависимости от соимости заказа, курьер может доставить вам продукцию бесплатно (при
+            соимости от 600 руб.) или от 150 руб.
+            в пределах Ярославля и до 500 руб. в пределах Ярославской области.</p>
+        </div>
       </div>
-    </div>
-    <div class="faq__figure">
-      <img src="src/img/7.png" alt="вопрос" class="faq__figure-img">
-      <div class="faq__figure-question">
-        <p class="faq__figure-question-par-a">Остались вопросы?</p>
-        <p class="faq__figure-question-par-b">Оставьте заявку на консультацию</p>
+      <div class="faq__figure">
+        <img src="src/img/7.png" alt="вопрос" class="faq__figure-img">
+        <div class="faq__figure-question">
+          <p class="faq__figure-question-par-a">Остались вопросы?</p>
+          <p class="faq__figure-question-par-b">Оставьте заявку на консультацию</p>
           <form class="faq__figure-question-request" action="#">
-              <input type="text" placeholder="Имя" class="faq__figure-question-request-name">
-              <input type="text" placeholder="Телефон" class="faq__figure-question-request-name">
-              <input type="submit" value="отправить" class="faq__figure-question-request-button">
-            </form>
+            <input type="text" placeholder="Имя" class="faq__figure-question-request-name">
+            <input type="text" placeholder="Телефон" class="faq__figure-question-request-name">
+            <input type="submit" value="отправить" class="faq__figure-question-request-button">
+          </form>
+        </div>
       </div>
+
     </div>
-  
-  </div>
-</section>
-<footer class="footer">
+  </section>
+
+  <footer class="footer">
     <p class="footer__artactive">ООО «АртАктив», 2017 ©</p>
     <a href="#" class="footer__link">Политика конфиденциальноси</a>
     <p class="footer__text">Designed by Sergey Strogiy</p>
-
   </footer>
- 
+
 
 </div>
 
