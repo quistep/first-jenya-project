@@ -1,38 +1,40 @@
-.ban
+.consultation
   background: url("../img/plane.png") no-repeat, url("../img/paper.png") no-repeat , url("../img/line.png") no-repeat, #f9f7fa
-  background-position: calc(50% + 680px) 390px, calc(50% + 320px) -10px, calc(50% + 450px) 443px
+  background-position: calc(50% + 675px) 370px, calc(50% + 320px) -10px, calc(50% + 450px) 425px
 
-.banner // refactor classes?
+.polygraphy 
   &__text
     display: flex
     flex-direction: column
+    padding-top: 140px
     &-header
-      margin-top: 140px // should be containers padding-top
       font-family: 'Muller', sans-serif
       font-weight: 500
       font-size: 32px
       color: #383d52
       width: 440px
-      margin-bottom: 66px
+      margin-bottom: 60px
+      margin-top: 0px
     &-paragraph
       font-family: 'Open Sans', sans-serif
       font-size: 14px
       color: #5e606a
       width: 560px
-      &:last-child
-        margin-bottom: 0
-    &-par-a // very weirds class names
-      margin-top: 120px // move as margin-bottom to paragraphs container
+      margin-top: 0px
+      margin-bottom: 30px 
+    &-question
       font-family: 'Open Sans', sans-serif
       font-size: 16px
       font-style: italic
       margin-bottom: 10px
-    &-par-r
+      display: flex
+    &-request
       font-family: 'Open Sans', sans-serif
       font-size: 20px
       font-weight: 600
       margin-top: 0
       margin-bottom: 50px
+      display: flex
   &-request
     display: flex
 
@@ -48,7 +50,6 @@
       font-family: 'Open Sans', sans-serif
       font-size: 14px
       font-style: italic
-      margin-bottom: 100px
       margin-right: 40px
       padding-right: 60px
 
@@ -66,7 +67,9 @@
       text-transform: uppercase
       cursor: pointer
       margin-top: -15px
-
+.polygraphy-text-questions
+  padding-top: 85px
+  padding-bottom: 160px
 
 
 

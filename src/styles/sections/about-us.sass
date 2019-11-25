@@ -1,34 +1,36 @@
 .about-us
   display: flex
-  padding-bottom: 220px
+  padding-bottom: 180px
   justify-content: space-between
   & .container
     @extend %equal-width-childs-container
+    padding-top: 110px
   &__img
     @extend %equal-width-childs-child
     width: 540px
     height: 480px
-    margin-right: 80px
-    margin-top: 110px // consider removing this margins and giving padding-top to the container :)
+    margin-right: 80px 
   &__text
-    @extend %equal-width-childs-child
-    margin-top: 110px // this one too
+    @extend %equal-width-childs-child// this one too
     &-name
       font-family: 'Muller', sans-serif
       font-weight: 700
       font-size: 30px
       color: #7f38bd
-    &-head
-      margin-top: 80px // preferably use margin bottom for creating columns of elements
+      display: block
+      margin-bottom: 80px
+    &-head 
       margin-bottom: 60px
       font-family: 'Muller', sans-serif
       font-weight: 500
       font-size: 32px
       color: #383d52
       width: 360px
+      margin-top: 0px
     &-paragraph
       font-family: 'Open Sans', sans-serif
       font-size: 14px
       margin-bottom: 30px
       color: #5e606a
+      margin-top: 0px
 

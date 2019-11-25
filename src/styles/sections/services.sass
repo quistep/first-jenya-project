@@ -5,19 +5,23 @@
   background: #faf8fb
   & .container
     @extend %equal-width-childs-container
+    padding-top: 100px
+
 
   &__text
     @extend %equal-width-childs-child
-    margin-top: 100px
+    
 
     &-name
       font-family: 'Muller', sans-serif
       font-weight: 700
       font-size: 30px
       color: #7f38bd
+      display: block
+      margin-bottom: 80px
 
     &-header
-      margin-top: 80px
+      margin-top: 0px
       font-family: 'Muller', sans-serif
       font-weight: 500
       font-size: 32px
@@ -39,16 +43,17 @@
         content: "•"
         display: inline
         margin-right: 2px
+      &:last-child
+        margin-bottom: 80px
 
     &-orders
-      margin-top: 80px
+     
       display: flex
       justify-content: space-around
       background: #883eca
       border-radius: 10px
       height: 117px
       width: 473px
-
       box-shadow: 0 23px 32px 0 rgba(81, 8, 86, 0.33)
 
     &-question
@@ -56,18 +61,20 @@
       font-size: 13px
       font-style: italic
       color: #f1ecf8
-      margin-top: 35px
+      display: block
       margin-bottom: 3px
       margin-left: 20px
+      margin-top: 40px
 
     &-consultation
+      display: block
       font-family: 'Open Sans', sans-serif
       font-size: 16px
       font-weight: 600
       color: #ffffff
-      margin-bottom: 40px
       margin-top: 0
       margin-left: 20px
+      
 
     &-button
       width: 171px
@@ -89,9 +96,9 @@
     @extend %equal-width-childs-child
     display: flex
     flex-direction: column
+    padding-top: 80px
 
-    &-img
-      margin-top: 205px // move this margin to container
+    &-img 
 
     &-p
       font-family: 'Open Sans', sans-serif
